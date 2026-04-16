@@ -10,3 +10,16 @@ fn greet(who) {
 
 print(greet(name))
 
+// Simple web server
+let app = web.create()
+
+app.get("/", fn(req, res) {
+  res.send("Welcome to Ometer v" + version)
+})
+
+app.get("/greet", fn(req, res) {
+  let msg = greet("the web")
+  res.json({ message: msg, status: 200 })
+})
+
+app.listen(3000)
