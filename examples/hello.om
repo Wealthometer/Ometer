@@ -8,3 +8,4 @@ fn greet(who) {
   return "Hello from " + who + "!"
 }
 
+print(greet(name))
