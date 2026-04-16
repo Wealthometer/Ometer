@@ -1,0 +1,47 @@
+// Test basic Ometer features
+fn greet(name) {
+  return "Hello, " + name + "!"
+}
+
+print(greet("World"))
+
+// Variables and arithmetic
+let x = 10
+let y = 3
+print(x + y)
+print(x * y)
+print(x ** 2)
+
+// Conditionals
+if (x > 5) {
+  print("x is big")
+} else {
+  print("x is small")
+}
+
+// Loop
+let count = 0
+while (count < 3) {
+  print("count: " + count)
+  count += 1
+}
+
+// Arrays
+let fruits = ["apple", "banana", "cherry"]
+for (fruit in fruits) {
+  print(fruit)
+}
+
+// Objects
+let user = { name: "Ometer", version: 1 }
+print(user.name)
+print(user.version)
+
+// Functions as values
+let double = fn(n) { return n * 2 }
+print(double(21))
+
+// String methods
+let msg = "Hello Ometer"
+print(msg.upper())
+print(msg.length)
