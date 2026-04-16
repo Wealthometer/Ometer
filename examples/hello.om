@@ -1,3 +1,4 @@
 // Hello World in Ometer
 import web
 
+let name = "Ometer"
