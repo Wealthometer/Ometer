@@ -2,4 +2,5 @@
 import web
 
 let name = "Ometer"
+let version = 0.1
 
