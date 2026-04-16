@@ -5,4 +5,5 @@ let name = "Ometer"
 let version = 0.1
 
 fn greet(who) {
+  return "Hello from " + who + "!"
 }
