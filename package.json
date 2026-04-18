@@ -8,22 +8,12 @@
   },
   "scripts": {
     "build": "tsc",
-    "build2": "npm run build && node dist/cli.js run examples/hello.om && node dist/cli.js run examples/test.om",
     "dev": "ts-node src/cli.ts",
-    "run:example": "ts-node src/cli.ts examples/hello.om",
-    "om": "ts-node src/cli.ts"
+    "run:example": "ts-node src/cli.ts examples/hello.om"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.0"
-  },
-  "files": ["dist/", "examples/", "README.md"],
-  "keywords": ["language", "compiler", "vm", "web", "backend"],
-  "license": "MIT",
-  "author": "Wealth Hajoh",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wealthometer/Ometer.git"
   }
 }
